@@ -18,10 +18,10 @@ public class WriterJSON implements WriterInFile {
             int count = 1;
             for (Entry<String, Float> element : map.entrySet()) {
                 if(map.size()==count){
-                    pw.println('"' + element.getKey() + '"' + ": " + element.getValue());
+                    pw.println("    " + '"' + element.getKey() + '"' + ": " + element.getValue());
                 }
                 else{
-                pw.println('"' + element.getKey() + '"' + ": " + element.getValue() + ",");
+                pw.println("    " + '"' + element.getKey() + '"' + ": " + element.getValue() + ",");
                 }
                 count++;
             }
