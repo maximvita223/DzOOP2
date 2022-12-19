@@ -3,6 +3,6 @@ import java.util.Map;
 
 public interface WriterInFile {
     
-    public void write(Map<String,Integer> map);
+    public void writer(Map<String,Float> map);
 
 }
