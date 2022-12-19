@@ -16,7 +16,7 @@ public class WriterTxt implements WriterInFile {
             PrintWriter pw = new PrintWriter(fos);
 
             for (Entry<String, Float> element : map.entrySet()) {
-                pw.println(element.getKey() + "=" + element.getValue());
+                pw.println(element.getKey() + " = " + element.getValue());
             }
 
             pw.flush();
