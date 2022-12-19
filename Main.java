@@ -12,6 +12,8 @@ public class Main {
         gpaOfStudents.put("Сергей Сергеев", 4.6f);
         WriterTxt writeTxt = new WriterTxt();
         writeTxt.writer(gpaOfStudents);
+        WriterJSON writeJson = new WriterJSON();
+        writeJson.writer(gpaOfStudents);
         
     }
 }
