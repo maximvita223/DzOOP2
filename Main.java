@@ -14,6 +14,8 @@ public class Main {
         writeTxt.writer(gpaOfStudents);
         WriterJSON writeJson = new WriterJSON();
         writeJson.writer(gpaOfStudents);
+        WriterXML writeXml = new WriterXML();
+        writeXml.writer(gpaOfStudents);
         
     }
 }
